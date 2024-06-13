@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	background: #1E90FF; /* Azul */
+	color: white;
+}
+
+.contenedor {
+	width: 1000px;
+	margin: 20px;
+}
+
+header {
+	background: #006400; /* Verde oscuro */
+}
+
+header nav {
+	width: 100%;
+}
+
+header nav ul {
+	width: 100%;
+	overflow: hidden;
+}
+
+header nav ul li {
+	float: left;
+	list-style: none;
+	padding: 15px; 
+}
+
+header nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	margin: 20px;
+	padding: 15px;
+	color: white;
+}
+
+header nav ul li a:hover {
+	background: #FFD700; /* Dorado */
+	color: white;
+}
+
+.main {
+	width: 680px;
+	float: left;
+}
+
+.main .imagen {
+	width: 100%;
+}
+
+.main .imagen img {
+	width: 100%;
+}
+
+.main .post h2 {
+	color: white;
+	margin-bottom: 20px;
+}
+
+.main .post p {
+	color: white;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 320px;
+	background: white;
+	color: darkblue;
+	overflow: hidden;
+}
